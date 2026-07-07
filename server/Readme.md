@@ -1,12 +1,5 @@
 # 🚀 Quinova — Scalable Social Backend API
 
-![Node.js](https://img.shields.io/badge/Node.js-v20-green?logo=node.js)
-![Express](https://img.shields.io/badge/Express-4.x-black?logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-7.x-green?logo=mongodb)
-![JWT](https://img.shields.io/badge/Auth-JWT-blue)
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
-![License](https://img.shields.io/badge/License-ISC-yellow)
-
 A **production-grade backend API** for a modern social/portfolio platform built with **Node.js, Express, and MongoDB**.
 
 This project powers a **creator-focused platform** where users can:
