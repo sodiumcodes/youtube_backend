@@ -1,5 +1,20 @@
 ﻿import { createBrowserRouter } from 'react-router-dom'
-
+import ProtectedRoute from '../components/common/ProtectedRoute'
+import Login from '../features/auth/pages/Login.jsx'
+import Register from '../features/auth/pages/Register.jsx'
 export const router = createBrowserRouter([
-  // Define your routes here
+  {
+    path:"/login",
+    element: <Login/>
+  },
+  {
+    path:"/register",
+    element:<Register/>
+  },
+  // {
+  //   path:"/home",
+  //   element:<ProtectedRoute>
+  //     <Profile/>
+  //   </ProtectedRoute>
+  // }
 ])

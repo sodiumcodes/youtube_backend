@@ -1,4 +1,4 @@
-import { createContext, useEffect } from "react";
+import { createContext, useEffect, useState } from "react";
 import { getCurrentUser } from "../features/auth/api/authAPI";
 
 export const AuthContext = createContext();
@@ -25,7 +25,7 @@ const AuthProvider=({children})=>{
     return (
         // ! Since the context value changes, every component using user automatically re-renders.
         <AuthContext.Provider value={
-            user, setUser, loading
+            {user, setUser, loading}
         }>
             {children}
         </AuthContext.Provider>

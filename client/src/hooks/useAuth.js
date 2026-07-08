@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../contexts/AuthContext";
 
-const useAuth = useContext(AuthContext);
+const useAuth = ()=> {return useContext(AuthContext);}
 /*  
     ?this:
         * makes user available everywhere

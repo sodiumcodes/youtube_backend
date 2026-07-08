@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "../services/tokenService";
 const api = axios.create({
-    baseURL: VITE_API_BASE_URL,
+    baseURL: "localhost:8000/api/v1/",
     withCredentials: true
 })
 

@@ -1,7 +1,7 @@
 import { TOKEN } from "../constants/auth.js";
 
 //to set the value of access token
-export const setToken = (token)=>{
+export const saveToken = (token)=>{
     localStorage.setItem(TOKEN, token);
 }
 //to get the value of access token
